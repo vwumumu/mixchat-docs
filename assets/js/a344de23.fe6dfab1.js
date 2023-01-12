@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmixchat_docs=self.webpackChunkmixchat_docs||[]).push([[377],{6541:a=>{a.exports=JSON.parse('{"label":"facebook","permalink":"/mixchat-docs/blog/tags/facebook","allTagsPath":"/mixchat-docs/blog/tags","count":1}')}}]);
