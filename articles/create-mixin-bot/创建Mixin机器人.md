@@ -27,7 +27,7 @@ VSCode是一个写代码的工具，我们需要在这个软件中，编写代�
 
 在VSCode[官方网站](https://code.visualstudio.com/)下载VSCode安装包，点击下图中的”Download for Windows“按钮开始下载。
 
-![image-20230130150035125](C:\Users\vwumumu\Desktop\coding\初始化Mixin机器人.assets\image-20230130150035125.png)
+![image-20230130150035125](https://raw.githubusercontent.com/vwumumu/mixchat-docs/master/articles/create-mixin-bot/imgs/image-20230130150035125.png)
 
 下载后，双击打开安装包，一路点击下一步，按照默认选项安装。
 
@@ -35,7 +35,7 @@ VSCode是一个写代码的工具，我们需要在这个软件中，编写代�
 
 在Nodejs[官方网站](https://nodejs.org/zh-cn/)下载安装包，点击下图中绿色按钮，如”18.13.0长期维护版“开始下载。
 
-![image-20230130150518160](C:\Users\vwumumu\Desktop\coding\初始化Mixin机器人.assets\image-20230130150518160.png)
+![image-20230130150518160](https://raw.githubusercontent.com/vwumumu/mixchat-docs/master/articles/create-mixin-bot/imgs/image-20230130150518160.png)
 
 双击打开下载后的安装包，一路点击下一步，完成安装。
 
@@ -46,19 +46,19 @@ VSCode是一个写代码的工具，我们需要在这个软件中，编写代�
 
 通过浏览器，访问：https://developers.mixin.one/dashboard，会弹出如下页面。
 
-![image-20230130143553857](C:\Users\vwumumu\Desktop\coding\初始化Mixin机器人.assets\image-20230130143553857.png)
+![image-20230130143553857](https://raw.githubusercontent.com/vwumumu/mixchat-docs/master/articles/create-mixin-bot/imgs/image-20230130143553857.png)
 
 用Mixin Messenger扫描网页中的二维码，就可以进入到下面的页面：开发者后台。
 
 页面中，左侧我的应用列表中显示的就是您的Mixin账号的Mixin机器人，点击某个具体的机器人，就可以开始配置。
 
-![image-20230130143643963](C:\Users\vwumumu\Desktop\coding\初始化Mixin机器人.assets\image-20230130143643963.png)
+![image-20230130143643963](https://raw.githubusercontent.com/vwumumu/mixchat-docs/master/articles/create-mixin-bot/imgs/image-20230130143643963.png)
 
 ### 2.2.填写Mixin机器人信息
 
 如下图，点击”我的应用“列表中的机器人，默认就会进入机器人的”信息“标签页，需要填写一些基本信息，可以下面的信息，填写完成后，点击页面底部的保存按钮，**记下来您的机器人Mixin ID**，在Mixin Messenger中添加这个机器人。
 
-![image-20230130144528327](C:\Users\vwumumu\Desktop\coding\初始化Mixin机器人.assets\image-20230130144528327.png)
+![image-20230130144528327](https://raw.githubusercontent.com/vwumumu/mixchat-docs/master/articles/create-mixin-bot/imgs/image-20230130144528327.png)
 
 ### 2.3.获取Mixin机器人密钥
 
@@ -66,15 +66,15 @@ VSCode是一个写代码的工具，我们需要在这个软件中，编写代�
 
 如下图，点击”密钥“标签页，然后点击蓝色的”Ed25519私钥“按钮，生成该机器人的私钥信息
 
-![image-20230130145139696](C:\Users\vwumumu\Desktop\coding\初始化Mixin机器人.assets\image-20230130145139696.png)
+![image-20230130145139696](https://raw.githubusercontent.com/vwumumu/mixchat-docs/master/articles/create-mixin-bot/imgs/image-20230130145139696.png)
 
 接下来，点击弹出窗口的”是的“按钮，重置（生成）机器人的私钥信息：
 
-![image-20230130145206387](C:\Users\vwumumu\Desktop\coding\初始化Mixin机器人.assets\image-20230130145206387.png)
+![image-20230130145206387](https://raw.githubusercontent.com/vwumumu/mixchat-docs/master/articles/create-mixin-bot/imgs/image-20230130145206387.png)
 
 然后，如下图，点击复制按钮将生成的私钥信息复制并保存下来，或直接点击下载按钮，下载一个文件名后缀为json的文件，这些信息我们后面会用到。
 
-![image-20230130145315190](C:\Users\vwumumu\Desktop\coding\初始化Mixin机器人.assets\image-20230130145315190.png)
+![image-20230130145315190](https://raw.githubusercontent.com/vwumumu/mixchat-docs/master/articles/create-mixin-bot/imgs/image-20230130145315190.png)
 
 再次强调，只要拥有了机器人的私钥信息，就拥有了机器人的控制权，只要再生成一次新的私钥信息，旧的私钥信息就失效了。
 
@@ -82,11 +82,11 @@ VSCode是一个写代码的工具，我们需要在这个软件中，编写代�
 
 打开Windows PowerShell，按 键盘上的`Win`+`R`组合键，然后在弹出的运行窗口中，输入`powershell`后回车
 
-![image-20230130153914963](C:\Users\vwumumu\Desktop\coding\初始化Mixin机器人.assets\image-20230130153914963.png)
+![image-20230130153914963](https://raw.githubusercontent.com/vwumumu/mixchat-docs/master/articles/create-mixin-bot/imgs/image-20230130153914963.png)
 
 然后打开如下的窗口，`PS C:\Users\vwumumu>`为我们当前所在的目录，就像在我的电脑中打开某个文件夹是一样的，命令行通过这种新式，显示了我们当前处于哪个文件夹：
 
-![image-20230130153940374](C:\Users\vwumumu\Desktop\coding\初始化Mixin机器人.assets\image-20230130153940374.png)
+![image-20230130153940374](https://raw.githubusercontent.com/vwumumu/mixchat-docs/master/articles/create-mixin-bot/imgs/image-20230130153940374.png)
 
 > Windows PowerShell是Windows平台的命令行工具
 
@@ -94,27 +94,27 @@ VSCode是一个写代码的工具，我们需要在这个软件中，编写代�
 
 如下图，通过`mkdir multisig`命令，在当前目录（`PS C:\Users\vwumumu`）下面创建一个名为`multsig`的文件夹，然后通过`cd multisig`命令，将命令行切换到`multsig`目录：
 
-![image-20230130154022834](C:\Users\vwumumu\Desktop\coding\初始化Mixin机器人.assets\image-20230130154022834.png)
+![image-20230130154022834](https://raw.githubusercontent.com/vwumumu/mixchat-docs/master/articles/create-mixin-bot/imgs/image-20230130154022834.png)
 
 执行`npm init -y`，初始化这个目录，我们后面就开始在这个目录下面写代码了
 
-![image-20230130153844173](C:\Users\vwumumu\Desktop\coding\初始化Mixin机器人.assets\image-20230130153844173.png)
+![image-20230130153844173](https://raw.githubusercontent.com/vwumumu/mixchat-docs/master/articles/create-mixin-bot/imgs/image-20230130153844173.png)
 
 ### 3.2.安装 mixin-node-sdk
 
 执行`npm install mixin-node-sdk`，安装`mixin-node-sdk`:
 
-![image-20230130154330607](C:\Users\vwumumu\Desktop\coding\初始化Mixin机器人.assets\image-20230130154330607.png)
+![image-20230130154330607](https://raw.githubusercontent.com/vwumumu/mixchat-docs/master/articles/create-mixin-bot/imgs/image-20230130154330607.png)
 
 执行`code .`用`vscode`打开当前目录，可以看到里面有一个名为`node_modules`的文件和名为`package-lock.json`和`package.json`的两个文件：
 
-![image-20230130154610387](C:\Users\vwumumu\Desktop\coding\初始化Mixin机器人.assets\image-20230130154610387.png)
+![image-20230130154610387](https://raw.githubusercontent.com/vwumumu/mixchat-docs/master/articles/create-mixin-bot/imgs/image-20230130154610387.png)
 
 ### 3.3.初始化Mixin机器人
 
 点击新建文件图标，创建一个名为`index.js`的文件：
 
-![image-20230130155011620](C:\Users\vwumumu\Desktop\coding\初始化Mixin机器人.assets\image-20230130155011620.png)
+![image-20230130155011620](https://raw.githubusercontent.com/vwumumu/mixchat-docs/master/articles/create-mixin-bot/imgs/image-20230130155011620.png)
 
 将下面的内容复制粘贴到`index.js`文件内，其中`new BlazeClient({xxx},{parse: true, syncAck: true });`是前面生成的机器人私钥，如果找不到了，再去开发者页面生成一份即可，至此，机器人就准备好了。
 
@@ -144,11 +144,11 @@ client.loopBlaze({
 
 在命令行中执行`node index.js`，光标会呈现一个闪烁的状态：
 
-![image-20230130155845114](C:\Users\vwumumu\Desktop\coding\初始化Mixin机器人.assets\image-20230130155845114.png)
+![image-20230130155845114](https://raw.githubusercontent.com/vwumumu/mixchat-docs/master/articles/create-mixin-bot/imgs/image-20230130155845114.png)
 
 跟您的机器人打个招呼：
 
-![image-20230130160018873](C:\Users\vwumumu\Desktop\coding\初始化Mixin机器人.assets\image-20230130160018873.png)
+![image-20230130160018873](https://raw.githubusercontent.com/vwumumu/mixchat-docs/master/articles/create-mixin-bot/imgs/image-20230130160018873.png)
 
 至此，您的机器人就运行起来了，给它发任何消息，它都会回您这句话：“我的第一个Mixin机器人”。
 
