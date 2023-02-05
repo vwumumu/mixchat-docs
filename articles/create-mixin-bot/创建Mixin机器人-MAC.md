@@ -6,7 +6,7 @@
 
 里面的内容不能帮助您搞懂是什么？为什么？能帮助您实现Mixin机器人运行起来。
 
-本文以MAC为例，Windows见[创建Mixin机器人-Windows](%E5%88%9B%E5%BB%BAMixin%E6%9C%BA%E5%99%A8%E4%BA%BA-Windows.md),其他操作系统类似。
+本文以Mac为例，Windows见[创建Mixin机器人-Windows](%E5%88%9B%E5%BB%BAMixin%E6%9C%BA%E5%99%A8%E4%BA%BA-Windows.md),其他操作系统类似。
 
 ------
 
@@ -25,7 +25,7 @@
 
 VSCode是一个写代码的工具，我们需要在这个软件中，编写代码。
 
-在VSCode[官方网站](https://code.visualstudio.com/)下载VSCode安装包，点击下图中的”Download for Windows“按钮开始下载。
+在VSCode[官方网站](https://code.visualstudio.com/)下载VSCode安装包，点击下图中的”Download Mac Universal“按钮开始下载。
 ![imgs/Robot2023-02-04_20-37-49.jpg](https://github.com/Ayan0217/mixchat-docs/blob/master/articles/create-mixin-bot/imgs/Robot2023-02-04_20-37-49.jpg?raw=true)
 
 下载后，双击打开安装包，一路点击下一步，按照默认选项安装。
