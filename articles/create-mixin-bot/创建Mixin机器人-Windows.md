@@ -44,7 +44,7 @@ VSCode是一个写代码的工具，我们需要在这个软件中，编写代�
 
 首先，我们需要登录开发者后台。
 
-通过浏览器，访问：https://developers.mixin.one/dashboard，会弹出如下页面。
+通过浏览器，访问：https://developers.mixin.one/dashboard ，会弹出如下页面。
 
 ![image-20230130143553857](https://raw.githubusercontent.com/vwumumu/mixchat-docs/master/articles/create-mixin-bot/imgs/image-20230130143553857.png)
 
@@ -57,6 +57,8 @@ VSCode是一个写代码的工具，我们需要在这个软件中，编写代�
 ### 2.2.填写Mixin机器人信息
 
 如下图，点击”我的应用“列表中的机器人，默认就会进入机器人的”信息“标签页，需要填写一些基本信息，可以下面的信息，填写完成后，点击页面底部的保存按钮，**记下来您的机器人Mixin ID**，在Mixin Messenger中添加这个机器人。
+
+额外需要注意的是，对于首页网址、验证网址这两个内容，是需要手动输入的，否则“保存”按钮无法点击，页面上的默认内容颜色更浅，是一个提示，实际是没有内容的。
 
 ![image-20230130144528327](https://raw.githubusercontent.com/vwumumu/mixchat-docs/master/articles/create-mixin-bot/imgs/image-20230130144528327.png)
 
